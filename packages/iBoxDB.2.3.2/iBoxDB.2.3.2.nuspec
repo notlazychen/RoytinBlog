@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>iBoxDB</id>
+    <version>2.3.2</version>
+    <title>iBoxDB Fast NoSQL Application Database</title>
+    <authors>Bruce Yang</authors>
+    <owners>Bruce Yang</owners>
+    <projectUrl>http://www.iboxdb.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Fast transactional table style document nosql application database. zero configuration, no dependencies, copy and run, easily process objects and documents, traditional table with unstructured data.
+It can embed into an application and deploy on mobiles desktops servers, then help designers to persist objects and documents thread safely with transaction support.
+For NET Mono Xamarin Windows Phone Silverlight</description>
+    <tags>Embedded Document Database Mobile  Application Embeddable NoSQL Local OODB Object Mono Xamarin Windows Phone C#</tags>
+  </metadata>
+</package>
