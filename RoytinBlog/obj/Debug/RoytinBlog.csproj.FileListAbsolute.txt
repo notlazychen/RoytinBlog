@@ -22,7 +22,6 @@ E:\GitHub\RoytinBlog\RoytinBlog\bin\Debug\Views\home.html
 E:\GitHub\RoytinBlog\RoytinBlog\bin\Debug\content\css\bootstrap-theme.min.css
 E:\GitHub\RoytinBlog\RoytinBlog\bin\Debug\content\css\bootstrap.min.css
 E:\GitHub\RoytinBlog\RoytinBlog\bin\Debug\content\fonts\glyphicons-halflings-regular.svg
-E:\GitHub\RoytinBlog\RoytinBlog\bin\Debug\content\img\icon.ico
 E:\GitHub\RoytinBlog\RoytinBlog\bin\Debug\content\img\SoWhat.jpg
 E:\GitHub\RoytinBlog\RoytinBlog\bin\Debug\content\js\bootstrap.min.js
 E:\GitHub\RoytinBlog\RoytinBlog\bin\Debug\content\js\jquery.min.js
@@ -33,3 +32,4 @@ E:\GitHub\RoytinBlog\RoytinBlog\bin\Debug\content\fonts\glyphicons-halflings-reg
 E:\GitHub\RoytinBlog\RoytinBlog\bin\Debug\content\fonts\glyphicons-halflings-regular.woff
 E:\GitHub\RoytinBlog\RoytinBlog\bin\Debug\content\fonts\glyphicons-halflings-regular.woff2
 E:\GitHub\RoytinBlog\RoytinBlog\bin\Debug\content\css\blog.css
+E:\GitHub\RoytinBlog\RoytinBlog\bin\Debug\content\img\favicon.ico
