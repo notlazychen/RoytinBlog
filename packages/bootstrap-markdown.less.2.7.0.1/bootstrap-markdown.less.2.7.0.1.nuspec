@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>bootstrap-markdown.less</id>
+    <version>2.7.0.1</version>
+    <title>bootstrap-markdown</title>
+    <authors>Taufan Aditya</authors>
+    <owners>Taufan Aditya</owners>
+    <projectUrl>https://github.com/toopay/bootstrap-markdown</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Markdown editor for Bootstrap 3</description>
+    <language>en-US</language>
+    <tags>bootstrap markdown</tags>
+  </metadata>
+</package>

@@ -79,8 +79,8 @@ h6, .h6 {
  */
 
 .blog-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .blog-title {
   margin-top: 30px;
@@ -99,8 +99,14 @@ h6, .h6 {
  */
 
 .blog-main {
-  font-size: 18px;
-  line-height: 1.5;
+  padding-top: 24px;
+  font-size: 16px;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.blog-comment {
+  word-wrap: break-word;
 }
 
 /* Sidebar modules for boxing content */
@@ -138,17 +144,20 @@ h6, .h6 {
  */
 
 .blog-post {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 .blog-post-title {
   margin-bottom: 5px;
-  font-size: 40px;
+  font-size: 28px;
 }
 .blog-post-meta {
-  margin-bottom: 20px;
+  margin-bottom: 2px;
   color: #999;
 }
-
+.blog-post-footer {
+    border-bottom: thin solid #cdddeb;
+    padding-bottom: 6px;
+}
 
 /*
  * Footer
@@ -163,4 +172,8 @@ h6, .h6 {
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+
+.blog-sidebar {
 }

@@ -1,0 +1,47 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<dynamic>
+@{
+    Layout = "_LoginLayout.cshtml";
+    ViewBag.Title = "登录";
+}
+@section Nav{
+    <a class="blog-nav-item" href="/">无限城</a>
+    <a class="blog-nav-item active" href="/">登录</a>
+}
+
+
+<div class="col-md-6">
+    <div>
+        <img src="/images/SoWhat.jpg" class="img-circle" style="margin: 8px" alt="陈惊蛰像" />
+
+        <h4>
+            <a href="http://weibo.com/crazer">@@陈惊蛰</a>
+        </h4>
+        <div>
+            这个人很懒，什么都没有留下。
+        </div>
+    </div>
+</div>
+<div class="well col-md-5 col-md-offset-1">
+    <form action="~/login" method="post" role="form">
+        <h2>登录</h2>
+        <div class="form-group">
+            <input type="email" class="form-control" name="Email" placeholder="Email" autofocus required>
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" name="Password" placeholder="密码" required>
+        </div>
+        <input type="hidden" name="ReturnUrl" value="@Nancy.Helpers.HttpUtility.HtmlEncode(ViewBag.ReturnUrl.Value)"/>
+        <button type="submit" class="btn btn-primary">登录</button>
+    </form>
+    @if (Model != null && Model.Length > 0)
+    {
+        <div class="alert alert-warning">
+            <ul>
+                @foreach (var err in Model)
+                {
+                    <li>@err</li>
+                }
+            </ul>
+        </div>
+    }
+</div>

@@ -1,0 +1,9 @@
+C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\bin\Publish\RoytinBlog.Core.dll
+C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\bin\Publish\RoytinBlog.Core.pdb
+C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\bin\Publish\iBoxDB.dll
+C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\bin\Publish\MarkdownSharp.dll
+C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\bin\Publish\Pinyin4net.dll
+C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\bin\Publish\MarkdownSharp.pdb
+C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\bin\Publish\MarkdownSharp.xml
+C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\obj\Publish\RoytinBlog.Core.dll
+C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\obj\Publish\RoytinBlog.Core.pdb
