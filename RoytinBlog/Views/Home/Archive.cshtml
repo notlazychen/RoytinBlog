@@ -23,14 +23,18 @@
                 @Html.Raw(blogPost.Description)
             </div>
         </div>
-        <a href="@blogPost.GetLink()">阅读全文</a>
+        @*<a href="@blogPost.GetLink()">阅读全文</a>*@
         <div class="footer">
             <i class="glyphicon glyphicon-tags"></i>
             @if (blogPost.Tags != null)
             {
+                var colors = new[] { "label-primary", "label-success", "label-info", "label-warning", "label-danger" };
+                int i = 0;
                 foreach (var tag in blogPost.Tags)
                 {
-                    <text> [ <a href="~/tag/@tag">@tag.AsTag().Name</a> ]</text>
+                    <span class="label @colors[i++]">
+                        @tag.AsTag().Name
+                    </span>
                 }
             }
         </div>
