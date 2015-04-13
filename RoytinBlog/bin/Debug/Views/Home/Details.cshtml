@@ -10,11 +10,6 @@
     <a class="blog-nav-item" href="/">无限城</a>
     <a class="blog-nav-item active" href="/">文章</a>
 }
-
-<style>
-    img {display:inline-block;max-width:100%;height:auto;padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
-</style>
-<img class="img-thumbnail" />
 <div class="blog-post">
     <h2 class="blog-post-title">@Model.BlogPost.Title</h2>
     <div class="blog-post-meta">
@@ -29,9 +24,11 @@
     <div class="footer">
         @if (Model.BlogPost.Tags != null)
         {
+            var colors = new[] { "label-primary", "label-success", "label-info", "label-warning", "label-danger" };
+            int i = 0;
             foreach (var tag in Model.BlogPost.Tags)
             {
-                <span class="label label-default">
+                <span class="label @colors[i++]" style="margin-right: 4px">
                     @tag.AsTag().Name
                 </span>
             }

@@ -24,7 +24,7 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-9 blog-main">
+            <div class="col-sm-9 blog-main" style="padding-left: 60px">
                 @RenderBody()
             </div><!-- /.blog-main -->
 
@@ -36,7 +36,7 @@
                     <h4><strong>标签云</strong></h4>
                     <ol class="list-unstyled">
                         @{
-                            var colors = new[] { "label-primary", "label-success", "label-info", "label-warning", "label-danger" };
+                            var colors = new[] {"label-primary", "label-success", "label-info", "label-warning", "label-danger"};
                             int i = 0;
                             foreach (RoytinBlog.Core.Documents.Tag tag in ViewBag.TagCould.Value.Tags)
                             {
