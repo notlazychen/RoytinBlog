@@ -16,13 +16,13 @@
 <body id="top">
 
     <div class="blog-masthead">
-        <div class="container">
+        <div class="container-fluid">
             <nav class="blog-nav">
                 @RenderSection("Nav", false)
             </nav>
         </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-sm-9 blog-main">
                 @RenderBody()
@@ -33,7 +33,7 @@
                     @Html.Partial("_AboutMe")
                 </div>
                 <div class="sidebar-module">
-                    <h4>标签云</h4>
+                    <h4><strong>标签云</strong></h4>
                     <ol class="list-unstyled">
                         @{
                             var colors = new[] { "label-primary", "label-success", "label-info", "label-warning", "label-danger" };
@@ -54,7 +54,7 @@
                     </ol>
                 </div>
                 <div class="sidebar-module">
-                    <h4>最近的文章</h4>
+                    <h4><strong>最近的文章</strong></h4>
                     <ol class="list-unstyled">
                         @foreach (var title in ViewBag.Recent.Value.BlogPostsSummaries)
                         {
@@ -63,7 +63,7 @@
                             </li>
                         }
                     </ol>
-                </div> 
+                </div>
                 @Html.Partial("_Links")
             </div><!-- /.blog-sidebar -->
         </div><!-- /.row -->

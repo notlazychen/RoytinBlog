@@ -7,3 +7,12 @@ C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\bin\Release\MarkdownSharp.pdb
 C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\bin\Release\MarkdownSharp.xml
 C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\obj\Release\RoytinBlog.Core.dll
 C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\obj\Release\RoytinBlog.Core.pdb
+E:\GitHub\RoytinBlog\RoytinBlog\RoytinBlog.Core\bin\Release\RoytinBlog.Core.dll
+E:\GitHub\RoytinBlog\RoytinBlog\RoytinBlog.Core\bin\Release\RoytinBlog.Core.pdb
+E:\GitHub\RoytinBlog\RoytinBlog\RoytinBlog.Core\bin\Release\iBoxDB.dll
+E:\GitHub\RoytinBlog\RoytinBlog\RoytinBlog.Core\bin\Release\MarkdownSharp.dll
+E:\GitHub\RoytinBlog\RoytinBlog\RoytinBlog.Core\bin\Release\Pinyin4net.dll
+E:\GitHub\RoytinBlog\RoytinBlog\RoytinBlog.Core\bin\Release\MarkdownSharp.pdb
+E:\GitHub\RoytinBlog\RoytinBlog\RoytinBlog.Core\bin\Release\MarkdownSharp.xml
+E:\GitHub\RoytinBlog\RoytinBlog\RoytinBlog.Core\obj\Release\RoytinBlog.Core.dll
+E:\GitHub\RoytinBlog\RoytinBlog\RoytinBlog.Core\obj\Release\RoytinBlog.Core.pdb

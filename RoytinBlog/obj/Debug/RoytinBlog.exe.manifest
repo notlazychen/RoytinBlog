@@ -158,7 +158,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>n6bjL66iTXwtZwMsxHB+YoPm0tyhSnkUeXFrtliZcFA=</dsig:DigestValue>
+        <dsig:DigestValue>P8A31JRb+xLda4kY5swSLmnKHmd7I/N5viwm1e15lgI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -170,7 +170,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>A6sBeJs3+valZte6YSx/xslzUq8V7s+hprqxxL7dSKk=</dsig:DigestValue>
+        <dsig:DigestValue>kjVjERa8HsapxMaHRVpUXOUUyLshKvenFU22LFCDE/c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -213,13 +213,13 @@
       <dsig:DigestValue>ghqunwD7Gfgv52KfaR1fNq1IIYkyrzpBT+HB7sBqBDc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="content\css\blog.css" size="2778">
+  <file name="content\css\blog.css" size="2794">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>o8dvOyvIRPFB7Fqc7oo/WHXaVdk7CSMSNhykvBO/jLg=</dsig:DigestValue>
+      <dsig:DigestValue>YTxH2mlCuqRxBAaA6iGXr4A2Kb5npSmPABEioBkh6fA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="content\css\bootstrap.min.css" size="117150">
@@ -843,13 +843,13 @@
       <dsig:DigestValue>NNM6dFSUrQgLBbTYsU7ZDgVNaHLZfX4pPRQ8vatUHvo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="RoytinBlog.exe.config" size="2425">
+  <file name="RoytinBlog.exe.config" size="2431">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>S+LqNrRrFQk/yxRsrcHu984JCxTGX+M9TsiljIAjy/c=</dsig:DigestValue>
+      <dsig:DigestValue>wBnbgTqgPqrwLelDydVYDSJqdkDhGp069GezG4h0Ukk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Views\_AdminLayout.cshtml" size="4597">
@@ -861,13 +861,13 @@
       <dsig:DigestValue>UqWvTmbL5ZkLYtTQ7GhUF2+wVB0jtP/D7c30CQL7+ts=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Views\_Layout.cshtml" size="3448">
+  <file name="Views\_Layout.cshtml" size="3493">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>OljLxVosy68US1QSo9mZDwhK9Qr+SoExJT44dwjnoMA=</dsig:DigestValue>
+      <dsig:DigestValue>beMzqignayf3uAe95vWpFjwK24i3lJiaICR/P5CZPBk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Views\_LoginLayout.cshtml" size="1334">
@@ -978,49 +978,49 @@
       <dsig:DigestValue>qUK4ojT7T6xSXeasv8oPBWdUGbgEVp2RuPPs5kEdC0s=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Views\Home\_Links.cshtml" size="365">
+  <file name="Views\Home\_Links.cshtml" size="382">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>O91+afxddXQJ7VDIvhTyDTa9/GQxeI1N4GZ5W+Et2VI=</dsig:DigestValue>
+      <dsig:DigestValue>lWKGCaVxuxkgUea1QzRqlPSNpbbfWxMLTy26ARWrzzE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Views\Home\Archive.cshtml" size="1359">
+  <file name="Views\Home\Archive.cshtml" size="1374">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>T35TxZuXIHU13Ml8j619CDzHQ5EoJzyN8Y9l2LKcIWs=</dsig:DigestValue>
+      <dsig:DigestValue>web7m6aMq4pV0Wwf++o6nbOYL4Esvk5qj/rAogip7oc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Views\Home\Details.cshtml" size="5558">
+  <file name="Views\Home\Details.cshtml" size="5877">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>KSgMf8YkkNsV4cFMY4PUkhlehLK5r1mFoO2nAbARoSQ=</dsig:DigestValue>
+      <dsig:DigestValue>w8QkTWG9Cz/V1ZBO+5ohvO4A1rhG/S/0Ev/cjmLie3U=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Views\Home\Index.cshtml" size="2012">
+  <file name="Views\Home\Index.cshtml" size="2190">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>cbdg5DwkDipPxT/71HMLqNsAmJwAACivoG27XgyhnTY=</dsig:DigestValue>
+      <dsig:DigestValue>puVh8y5udi7iQxsL24PccY6JeH7pOfwSpwB3Q3dkq7Y=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Views\Home\Tagged.cshtml" size="1253">
+  <file name="Views\Home\Tagged.cshtml" size="1261">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>6V71l3mWH2bW7rv3L6ASY6c0w5IyDYP7zTfBJBmtNj4=</dsig:DigestValue>
+      <dsig:DigestValue>SjumDezEgLLh+og8uLYveTeMz/+SoX4Mb2Ehdvn9H7Q=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

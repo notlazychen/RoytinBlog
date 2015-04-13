@@ -3,7 +3,7 @@
  */
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  
   color: #555;
 }
 
@@ -14,7 +14,7 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "KaiTi", Arial, Helvetica, sans-serif;*/
   font-weight: normal;
   color: #333;
 }
@@ -97,11 +97,15 @@ h6, .h6 {
 /*
  * Main column and sidebar layout
  */
+p {
+  text-indent: 2em;
+}
 
 .blog-main {
   padding-top: 24px;
-  font-size: 16px;
-  line-height: 1.4;
+  padding-bottom: 40px;
+  font-size: 12px;
+  line-height: 1.2;
   word-wrap: break-word;
 }
 
@@ -148,7 +152,8 @@ h6, .h6 {
 }
 .blog-post-title {
   margin-bottom: 5px;
-  font-size: 28px;
+  font-size: 22px;
+  font-weight: bold
 }
 .blog-post-meta {
   margin-bottom: 2px;

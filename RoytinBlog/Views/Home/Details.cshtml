@@ -11,15 +11,19 @@
     <a class="blog-nav-item active" href="/">文章</a>
 }
 
+<style>
+    img {display:inline-block;max-width:100%;height:auto;padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
+</style>
+<img class="img-thumbnail" />
 <div class="blog-post">
     <h2 class="blog-post-title">@Model.BlogPost.Title</h2>
-    <p class="blog-post-meta">
+    <div class="blog-post-meta">
         <time>
             @Model.BlogPost.PubDate.ToChineseTime().ToString("yyyy年MM月dd日 HH:mm")
         </time>
         <span style="float: right">浏览(@Model.BlogPost.ViewCount)</span>
-    </p>
-    <div class="well">
+    </div>
+    <div class="blog-main">
             @Html.Raw(Model.BlogPost.Content)
     </div>
     <div class="footer">
