@@ -130,5 +130,14 @@
                 $("#warning").text("请填写必须的字段！");
             }
         }
+
+        $(function () {
+            $('img').each(function (i, e) {
+                var item = $(e);
+                if (!item.hasClass('img-circle')) {
+                    item.addClass('img-thumbnail');
+                }
+            });
+        });
     </script>
 }
