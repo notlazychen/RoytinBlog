@@ -1,0 +1,41 @@
+﻿@using RoytinBlog.Core.Extensions
+@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<RoytinBlog.Core.ViewProjections.Home.TaggedBlogPostsViewModel>
+@{
+    Layout = "_Layout.cshtml";
+}
+@section Nav{
+    <a class="blog-nav-item" href="/">无限城</a>
+    <a class="blog-nav-item active" href="/">标签 - @Model.Tag</a>
+}
+
+@foreach (var blogPost in Model.Posts)
+{
+    <div class="blog-post">
+        <h2 class="blog-post-title"><a href="@blogPost.GetLink()">@blogPost.Title</a></h2>
+        <div class="blog-post-meta">
+            <time>
+                @blogPost.PubDate.ToChineseTime().ToString("yyyy年MM月dd日 HH:mm")
+            </time>
+            <span style="float: right">浏览(@blogPost.ViewCount)</span>
+        </div>
+        @*<div class="well">
+            @Html.Raw(blogPost.Description)
+        </div>*@
+        @*<a href="@blogPost.GetLink()">阅读全文</a>*@
+        <div class="footer">
+            @if (blogPost.Tags != null)
+            {
+                var colors = new[] { "label-primary", "label-success", "label-info", "label-warning", "label-danger" };
+                int i = 0;
+                foreach (var tag in blogPost.Tags)
+                {
+                    <span class="label @colors[i++]">
+                        @tag.AsTag().Name
+                    </span>
+                }
+            }
+        </div>
+    </div>
+}
+
+
