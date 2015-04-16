@@ -8,13 +8,3 @@ C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\bin\Debug\MarkdownSharp.xml
 C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\obj\Debug\RoytinBlog.Core.dll
 C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\obj\Debug\RoytinBlog.Core.pdb
 C:\Users\惊蛰\Desktop\RoytinBlog\RoytinBlog.Core\obj\Debug\RoytinBlog.Core.csprojResolveAssemblyReference.cache
-D:\GitHub\RoytinBlog\RoytinBlog.Core\bin\Debug\RoytinBlog.Core.dll
-D:\GitHub\RoytinBlog\RoytinBlog.Core\bin\Debug\RoytinBlog.Core.pdb
-D:\GitHub\RoytinBlog\RoytinBlog.Core\bin\Debug\iBoxDB.dll
-D:\GitHub\RoytinBlog\RoytinBlog.Core\bin\Debug\MarkdownSharp.dll
-D:\GitHub\RoytinBlog\RoytinBlog.Core\bin\Debug\Pinyin4net.dll
-D:\GitHub\RoytinBlog\RoytinBlog.Core\bin\Debug\MarkdownSharp.pdb
-D:\GitHub\RoytinBlog\RoytinBlog.Core\bin\Debug\MarkdownSharp.xml
-D:\GitHub\RoytinBlog\RoytinBlog.Core\obj\Debug\RoytinBlog.Core.dll
-D:\GitHub\RoytinBlog\RoytinBlog.Core\obj\Debug\RoytinBlog.Core.pdb
-D:\GitHub\RoytinBlog\RoytinBlog.Core\obj\Debug\RoytinBlog.Core.csprojResolveAssemblyReference.cache
